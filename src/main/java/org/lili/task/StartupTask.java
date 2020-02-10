@@ -11,6 +11,7 @@ public class StartupTask implements Runnable {
     @Override
     public void run() {
         //task生命周期在ExecutorConfigurationSupport中进行管理
+        //test tomcat reload true
         System.out.println(" StartupTask By Spring Task ... " + new Date());
     }
 }
